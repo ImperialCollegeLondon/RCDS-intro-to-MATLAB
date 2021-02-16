@@ -78,6 +78,58 @@ Join in:
 * `(y+1)^2`
 * `y=sin(x)*cos(x)`
 
+**Valid Names**
+
+A valid variable name starts with a letter, followed by letters, digits, or underscores. MATLAB® is case sensitive, so A and a are not the same variable.
+
+The maximum length of a variable name is the value that the namelengthmax command returns.
+
+You cannot define variables with the same names as MATLAB keywords, such as if or end. For a complete list, run the iskeyword command.
+
+|Examples of valid names:	|Examples of invalid names:|
+|----------------------------------------------------|
+|x6	|6x|
+|lastValue |	end|
+|n_factorial |	n!|
+
+**Conflicts with Function Names**
+
+Avoid creating variables with the same name as a function (such as i, j, mode, char, size, and path).
+
+In general, variable names take precedence over function names. If you create a variable that uses the name of a function, you sometimes get unexpected results.
+
+Check whether a proposed name is already in use with the exist or which function. exist returns 0 if there are no existing variables, functions, or other artifacts
+
+with the proposed name.
+
+For example:
+
+exist checkname
+
+If you inadvertently create a variable with a name conflict, remove the variable from memory with the clear function (clear will remove all variables from your workspace).
+
+You can right click to delete one variable a time in the Workspace window.
+
+Another potential source of name conflicts occurs when you define a function that calls load or eval (or similar functions) to add variables to the workspace. In some cases, 
+
+load or eval add variables that have the same names as functions. Unless these variables are in the function workspace before the call to load or eval, the MATLAB parser i
+
+nterprets the variable names as function names. 
+
+
+
+**A bit challenge**
+
+Try:
+
+ syms a b x
+
+together with
+
+ simplify(x^2+2*a*x+a^2)
+
+ expand
+ 
 ### 5. Getting help
 
 * Find square root of x: Google the function
