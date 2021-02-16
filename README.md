@@ -108,7 +108,7 @@ with the proposed name.
 
 For example:
 
-exist checkname
+`exist checkname`
 
 If you inadvertently create a variable with a name conflict, remove the variable from memory with the clear function (clear will remove all variables from your workspace).
 
