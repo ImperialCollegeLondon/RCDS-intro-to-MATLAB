@@ -95,12 +95,6 @@ You cannot define variables with the same names as MATLAB keywords, such as if o
 
 
 
-| Examples of valid names:	| Examples of invalid names: |
-| ---------------------------------------------------- |
-| x6	| 6x |
-| lastValue |	end |
-| n_factorial |	 n!  |
-
 
 **Conflicts with Function Names**
 
