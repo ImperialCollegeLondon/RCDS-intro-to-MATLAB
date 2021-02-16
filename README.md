@@ -87,6 +87,13 @@ The maximum length of a variable name is the value that the namelengthmax comman
 You cannot define variables with the same names as MATLAB keywords, such as if or end. For a complete list, run the iskeyword command.
 
 
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+
+
 | Examples of valid names:	| Examples of invalid names: |
 | ---------------------------------------------------- |
 | x6	| 6x |
