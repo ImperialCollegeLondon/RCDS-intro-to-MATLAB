@@ -442,6 +442,32 @@ Join in:
 * `csvwrite('exchange_rates_pounds.csv',data_pounds)`
 * Look at it in Excel
 
+Advanced:
+
+* Observe and find Cons with `csvread` and  `csvwrite`
+* Solution:
+  * Use `readtable` and `writetable` instead
+  * example:
+
+```
+exchange_data = readtable('exchange_rates.csv');
+
+header = exchange_data.Properties.VariableNames;
+
+exchange_data_wo_header = table2array(exchange_data);
+
+data_pounds = exchange_data_wo_header;
+
+GBP_USD = exchange_data_wo_header(:,12);
+
+data_pounds(:,2:end) = exchange_data_wo_header(:,2:end)./GBP_USD;
+
+new_table = array2table(data_pounds, 'VariableNames', header);
+
+writetable(new_table, 'exchange_rates_GBP.csv');
+```
+
+
 ### 2. Linear algebra: Inversion of matrices (and when this is a bad idea)
 
 Join in:
