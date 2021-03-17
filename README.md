@@ -486,7 +486,7 @@ Try:
 * Let `A = [1 2 3; 4 5 6; 5 7 9]` and `b = [-1; 0; 1]`. Solve *Ax=b*. What is the determinant of *A*? (Google!)
 
 # Feedback form
-If you're taking this course through the Graduate School, please fill out [the feedback form](http://bit.ly/computingdatascience1920).
+If you're taking this course through the Graduate School, please fill out [the feedback form](http://bit.ly/rcds2021).
 
 # Extra stuff
 
