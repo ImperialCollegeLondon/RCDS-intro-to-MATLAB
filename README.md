@@ -166,7 +166,7 @@ f(2)
 Try:
 
 * Find sin<sup>–1</sup>(1)
-* Find the remainder when 14 is divided by 3
+* Find the remainder when 14 is divided by 3 (challenge: find the difference between 2 methods)
 * Find |–4|
 
 ### 6. The semicolon
