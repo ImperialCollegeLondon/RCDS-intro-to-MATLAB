@@ -467,6 +467,7 @@ new_table = array2table(data_pounds, 'VariableNames', header);
 writetable(new_table, 'exchange_rates_GBP.csv');
 ```
 
+* Your research: fopen, textscan, fclose
 
 ### 2. Linear algebra: Inversion of matrices (and when this is a bad idea)
 
