@@ -273,6 +273,8 @@ disp(n*(n^2+1)/2); % magic constant
 * Breakpoints
 * Change the script so that we do it with a matrix of size 3 instead.
 
+#### Repeat above lines in Live Scripts (code + text)
+
 ## Part 2. Plotting, functions, Collatz conjecture, if, for, while
 
 ### 1. Plotting in 2D
@@ -318,8 +320,35 @@ Join in:
 Try:
 
 * The same but use `loglog`, `semilogx` or `semilogy` instead of `plot` (the syntax is the same). What do they do?
+* Try in the Live Scripts too.
 
-### 2. Writing and calling simple functions
+### 2. Plotting in 3D
+
+Join in:
+
+* `t = [0:0.1:10];`
+* `x = sin(t);`
+* `y = cos(t);`
+* `z = t;`
+* `plot3(x,y,z)`
+* `grid on`
+
+Visualise *f*(*x,y*) = sin(*x*)cos(2*y*) for 0 ≤ *x,y* ≤ 2π:
+
+* Create grid
+  - `x = linspace(0,2*pi,300)`
+  - `y = linspace(0,2*pi,300)`
+  - `[xg,yg] = meshgrid(x,y);`
+* `f = sin(xg).*cos(2*yg);`
+* `contour(xg,yg,f,20);`
+* `surf(x,y,f)`
+* `shading interp`
+
+Try:
+
+* Try in the Live Scripts too.
+
+### 3. Writing and calling simple functions
 Now we move from simple call-and-response to writing whole programs
 
 * Difference between scripts and functions.
@@ -348,7 +377,7 @@ Join in:
   - `first`
   - `last`
 
-### 3. If
+### 4. If
 
 Join in:
 
@@ -368,7 +397,7 @@ Try:
 
 * Change `collatz_function(n)` so that if *n* is even, it returns *n*/2, otherwise it returns 3*n*+1.
 
-### 4. For and while loops
+### 5. For and while loops
 
 Join in:
 
@@ -542,29 +571,7 @@ Try:
 
 * How to get eigenvectors? (Google or F1)
 
-### X5. Plotting in 3D
-
-Join in:
-
-* `t = [0:0.1:10];`
-* `x = sin(t);`
-* `y = cos(t);`
-* `z = t;`
-* `plot3(x,y,z)`
-* `grid on`
-
-Visualise *f*(*x,y*) = sin(*x*)cos(2*y*) for 0 ≤ *x,y* ≤ 2π:
-
-* Create grid
-  - `x = linspace(0,2*pi,300)`
-  - `y = linspace(0,2*pi,300)`
-  - `[xg,yg] = meshgrid(x,y);`
-* `f = sin(xg).*cos(2*yg);`
-* `contour(xg,yg,f,20);`
-* `surf(x,y,f)`
-* `shading interp`
-
-### X6. Strings
+### X5. Strings
 
 Single-quote strings are vectors, with each character an element in the vector
 
@@ -589,7 +596,7 @@ Try:
 * Output the first and last letter of your surname, put together
 * If `conversation = ['hello there', 'general kenobi']` (with single quotes), what is `conversation(2)`?
 
-### X7. Built-in functions to try
+### X6. Built-in functions to try
 Try:
 
 * `sin(x)`, `cos(x)`, `tan(x)`
@@ -597,9 +604,9 @@ Try:
 * `max(x)`, `min(x)`
 * `triu(A)`, `rand(n)`
 
-### [X8. Curve Fitting](./curve_fitting.md)
+### [X7. Curve Fitting](./curve_fitting.md)
 
-### [X9. Numerical Root Finding](./root_finding.md)
+### [X8. Numerical Root Finding](./root_finding.md)
 
 
 # Extra challenges 
