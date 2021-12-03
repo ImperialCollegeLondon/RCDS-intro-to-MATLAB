@@ -530,10 +530,18 @@ Create an app programmatically: Choose this option when you want to create an ap
 
 Join in:
 
-Create an app interactively:
+Convert a script into a simple app:
+* Convert a script (e.g., a simple 3D surface plot script) to Live Script.
+* Use Live Editor to change control with live control.
+* Hide code from VIEW option.
 
+More complicated method based on same script as above, create an app interactively using GUIDE:
+* Start GUIDE.
+* Drag-and-drop components.
+* Edit callback code.
 
-
+Try: 
+* Above 2 methods.
 
 
 # Feedback form
