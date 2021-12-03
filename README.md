@@ -5,7 +5,7 @@ Introduction to Matlab course for the CM Hub at Imperial College
 
 * **Part 1:** Call-and-response Matlab, basic arithmetic, simple scripts
 * **Part 2:** 2D/3D plots, functions, Collatz conjecture, if, for, while
-* **Part 3:** Data analysis, linear algebra, GUIDE
+* **Part 3:** Data analysis, linear algebra, GUIs
 
 ## The Graduate School logo
 <img src="/readme-images/grad-school-logo.png">
@@ -514,6 +514,27 @@ Try:
 
 * Solve the system of equations *x*+*y*=2, -*x*+3*y*=3.
 * Let `A = [1 2 3; 4 5 6; 5 7 9]` and `b = [-1; 0; 1]`. Solve *Ax=b*. What is the determinant of *A*? (Google!)
+
+### 3. GUIs: 
+
+#### Use GUIDE to create apps with graphical user interfaces
+
+Graphical user interfaces (GUIs), also known as apps, provide user friendly interface with mouse click and keyboard input to control functions. You can share apps both for use within MATLAB and also as standalone desktop or web apps. 
+
+
+You can choose from the following three ways to create an app in MATLAB:
+
+Convert a script into a simple app: Choose this option when you want to share a script with students or colleagues and allow them to modify variables using interactive controls.
+Create an app interactively: Choose this option when you want to create a more sophisticated app using a drag-and-drop environment to build the user interface. 
+Create an app programmatically: Choose this option when you want to create an app’s user interface by writing the code yourself.
+
+Join in:
+
+Create an app interactively:
+
+
+
+
 
 # Feedback form
 If you're taking this course through the Graduate School, please fill out [the feedback form](http://bit.ly/rcds2021).
