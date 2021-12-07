@@ -545,7 +545,7 @@ Try:
 
 
 # Feedback form
-If you're taking this course through the Graduate School, please fill out [the feedback form](https://imperial.eu.qualtrics.com/jfe/form/SV_2gmqFfmodH4Ood0).
+If you're taking this course through the Graduate School, please fill out [the feedback form](https://tinyurl.com/rcds2021-22).
 
 # Extra stuff
 
