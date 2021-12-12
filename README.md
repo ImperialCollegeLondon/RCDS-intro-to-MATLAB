@@ -38,6 +38,7 @@ Pros of Matlab:
 * Comes with a lot of useful baked-in tools
 * Interactivity/debugging is quite easy
 * Backwards compatible and has been around for a long time
+* Excellent systematic help documents
 
 Cons of Matlab:
 * Ideosyncratic
