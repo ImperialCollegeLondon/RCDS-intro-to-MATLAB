@@ -526,7 +526,9 @@ Graphical user interfaces (GUIs), also known as apps, provide user friendly inte
 You can choose from the following three ways to create an app in MATLAB:
 
 Convert a script into a simple app: Choose this option when you want to share a script with students or colleagues and allow them to modify variables using interactive controls.
+
 Create an app interactively: Choose this option when you want to create a more sophisticated app using a drag-and-drop environment to build the user interface. 
+
 Create an app programmatically: Choose this option when you want to create an app’s user interface by writing the code yourself.
 
 Join in:
