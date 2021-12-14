@@ -373,10 +373,12 @@ Try:
 Join in:
 
 * Change `first_and_last` so it outputs the first and last elements separately
-* Test it out:
+* Test it out 1:
   - `[first, last] = first_and_last(v)`
-  - `first`
-  - `last`
+  - `first = `
+  - `last = `
+* Test it out 2:
+  - `[least, middle, largest] = lml(v)`
 
 ### 4. If
 
@@ -442,6 +444,11 @@ Try:
   * Hint 2: You have to change the value of `n` within your while loop otherwise `n` will never equal 1.
 
 * For the keen: Write a script, `collatz_trials.m` which loops through the numbers 1 to 10, printing out the Collatz path every time.
+
+* **Challenge:**
+  - Error message
+  - Test input arguments
+
 
 ## Part 3. Data analysis, linear algebra
 
