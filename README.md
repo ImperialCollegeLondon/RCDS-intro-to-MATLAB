@@ -1,9 +1,9 @@
-# CM Hub: Introduction to Matlab
-Introduction to Matlab course for the CM Hub at Imperial College
+# CM Hub: Introduction to MATLAB
+Introduction to MATLAB course for the CM Hub at Imperial College
 
 3 × 2 hour classes
 
-* **Part 1:** Call-and-response Matlab, basic arithmetic, simple scripts
+* **Part 1:** Call-and-response MATLAB, basic arithmetic, simple scripts
 * **Part 2:** 2D/3D plots, functions, Collatz conjecture, if, for, while
 * **Part 3:** Data analysis, linear algebra, GUIs
 
@@ -11,8 +11,8 @@ Introduction to Matlab course for the CM Hub at Imperial College
 <img src="/readme-images/grad-school-logo.png">
 
 ## On completion of this workshop you will be able to:
-* use Matlab to run scripts,
-* apply fundamental components of the Matlab language including variables, loops, conditionals and functions,
+* use MATLAB to run scripts,
+* apply fundamental components of the MATLAB language including variables, loops, conditionals and functions,
 * create programs designed to solve simple problems,
 * interpret common errors and use these to help debug a program.
 
@@ -28,19 +28,19 @@ Timestamps are in the descriptions and correspond to the numbering in this docum
 * [Part 3](https://www.youtube.com/watch?v=JNvfPRTEbAg)
 * [Playlist](https://www.youtube.com/playlist?list=PLcRp2oAQBugsErP-wF-tpZUUm8mLg-ME_)
 
-## Part 1. Call-and-response Matlab, basic arithmetic, simple scripts
+## Part 1. Call-and-response MATLAB, basic arithmetic, simple scripts
 
-### 1. Where Matlab sits among other languages
+### 1. Where MATLAB sits among other languages
 <img src="/readme-images/maths-not-maths-languages.png" width="50%">
 
-Pros of Matlab:
+Pros of MATLAB:
 * Shallow learning curve for maths
 * Comes with a lot of useful baked-in tools
 * Interactivity/debugging is quite easy
 * Backwards compatible and has been around for a long time
 * Excellent systematic help documents
 
-Cons of Matlab:
+Cons of MATLAB:
 * Ideosyncratic
 * £££££££££££
 * Bad for programming in general
@@ -49,7 +49,7 @@ Cons of Matlab:
 
 In short: Matlab is a good plug-and-play language for medium-sized maths problems.
 
-### 2. Awareness of the Matlab desktop environment
+### 2. Awareness of the MATLAB desktop environment
 * The command window allows for call-and-response interface
 
 ### 3. Command-line arithmetic
@@ -452,9 +452,9 @@ Try:
 
 ## Part 3. Data analysis, linear algebra
 
-### 1. Saving and reading data
+### 1. Reading and saving data
 
-There are lots of ways of saving and reading data in Matlab. A good question to ask is 'do I want to open the saved data in another program?'
+There are lots of ways of saving and reading data in MATLAB. A good question to ask is 'do I want to open the saved data in another program?'
 
 Join in:
 
