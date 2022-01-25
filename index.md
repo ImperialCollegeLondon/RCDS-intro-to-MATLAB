@@ -8,7 +8,7 @@ Introduction to MATLAB course for the CM Hub at Imperial College
 * **Part 3:** Data analysis, linear algebra, GUIs
 
 ## The Graduate School logo
-<img src="/readme-images/grad-school-logo.png">
+<img src="readme-images/grad-school-logo.png">
 
 ## On completion of this workshop you will be able to:
 * use MATLAB to run scripts,
