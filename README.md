@@ -450,7 +450,7 @@ Try:
   - Test input arguments
 
 
-## Part 3. Data analysis, linear algebra
+## Part 3. Data analysis, linear algebra, and GUI
 
 ### 1. Reading and saving data
 
