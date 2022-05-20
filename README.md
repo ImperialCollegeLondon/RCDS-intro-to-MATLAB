@@ -468,7 +468,7 @@ Your turn:
 
 * Plot the GBP/USD price (12th column) against the day of the year (1st column)
 * On the same graph, plot the EUR/USD price (11th column) against the day of the year
-* On a new graph, plot the EUR/GBP price against the day of the year. Can you guess which year this data is from?
+* On a new graph, plot the EUR/GBP price against the day of the year. ~~Can you guess which year this data is from?~~
 * What was the minimum number of euros you could buy with £1 that year?
 * On which day of the year was this the case? (Hint: look up `min` in the help files)
 
