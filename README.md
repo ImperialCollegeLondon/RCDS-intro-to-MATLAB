@@ -4,8 +4,8 @@ Introduction to MATLAB course for the CM Hub at Imperial College
 3 × 2 hour classes
 
 * **Part 1:** Call-and-response MATLAB, basic arithmetic, simple scripts
-* **Part 2:** 2D/3D plots, functions, Collatz conjecture, ~~if, for, while~~
-* **Part 3:** if, loops (for, while), Data analysis, ~~linear algebra, GUIs~~
+* **Part 2:** 2D/3D plots, functions, Collatz conjecture
+* **Part 3:** if, loops (for, while), Data analysis
 
 ## The Graduate School logo
 <img src="/readme-images/grad-school-logo.png">
@@ -276,7 +276,7 @@ disp(n*(n^2+1)/2); % magic constant
 
 #### Repeat above lines in Live Scripts (code + text)
 
-## Part 2. Plotting, functions, Collatz conjecture, if, for, while
+## Part 2. Plotting, functions, Collatz conjecture
 
 ### 1. Plotting in 2D
 
@@ -367,7 +367,7 @@ end
 
 Try:
 
-* Create a function `first_and_last` which takes a vector `v` and returns the sum of the first element in the vector and the last element in the vector
+* Create a function `first_and_last` which takes a vector `v` and returns the first element in the vector and the last element in the vector
 * Test it out in the command line, letting `test_vector=[1:10]` and running `first_and_last(test_vector)`.
 
 Join in:
@@ -379,8 +379,14 @@ Join in:
   - `last = `
 * Test it out 2:
   - `[least, middle, largest] = lml(v)`
+  - hint: work out the values; use `median` for middle.
 
-### 4. If
+
+
+
+## Part 3. if, loops (for, while),  Data analysis
+
+### 1. if
 
 Join in:
 
@@ -399,6 +405,7 @@ end
 Try:
 
 * Change `collatz_function(n)` so that if *n* is even, it returns *n*/2, otherwise it returns 3*n*+1.
+
 
 ### 5. For and while loops
 
@@ -449,10 +456,7 @@ Try:
   - Error message
   - Test input arguments
 
-
-## Part 3. Data analysis, linear algebra, and GUI
-
-### 1. Reading and saving data
+### 3. Data analysis: reading and saving data
 
 There are lots of ways of saving and reading data in MATLAB. A good question to ask is 'do I want to open the saved data in another program?'
 
@@ -506,56 +510,13 @@ writetable(new_table, 'exchange_rates_GBP.csv');
 
 * Your research: fopen, textscan, fclose
 
-### 2. Linear algebra: Inversion of matrices (and when this is a bad idea)
-
-Join in:
-
-* `A = [1 0 5; 2 1 6; 3 4 0]`
-* `A`
-* `inv(A)`
-* Let's solve *Ax* = (–1 0 1)<sup>T</sup>
-* `b = [-1; 0; 1]`
-* If *Ax* = *b* then *x* = *A*<sup>–1</sup>*b*, so `inv(A)*b`
-* `A\b`
-
-Try:
-
-* Solve the system of equations *x*+*y*=2, -*x*+3*y*=3.
-* Let `A = [1 2 3; 4 5 6; 5 7 9]` and `b = [-1; 0; 1]`. Solve *Ax=b*. What is the determinant of *A*? (Google!)
-
-### 3. GUIs: 
-
-#### Use GUIDE to create apps with graphical user interfaces
-
-Graphical user interfaces (GUIs), also known as apps, provide user friendly interface with mouse click and keyboard input to control functions. You can share apps both for use within MATLAB and also as standalone desktop or web apps. 
-
-
-You can choose from the following three ways to create an app in MATLAB:
-
-* Convert a script into a simple app: Choose this option when you want to share a script with students or colleagues and allow them to modify variables using interactive controls.
-
-* Create an app interactively: Choose this option when you want to create a more sophisticated app using a drag-and-drop environment to build the user interface. 
-
-* Create an app programmatically: Choose this option when you want to create an app’s user interface by writing the code yourself.
-
-Join in:
-
-Convert a script into a simple app:
-* Convert a script (e.g., a simple 3D surface plot script) to Live Script.
-* Use Live Editor to change control with live control.
-* Hide code from VIEW option.
-
-More complicated method based on same script as above, create an app interactively using GUIDE:
-* Start GUIDE.
-* Drag-and-drop components.
-* Edit callback code.
-
-Try: 
-* Above 2 methods.
 
 
 # Feedback form
 If you're taking this course through the Graduate School, please fill out [the feedback form](https://tinyurl.com/rcds2021-22).
+
+
+
 
 # Extra stuff
 
@@ -576,7 +537,26 @@ Try:
 * Make one of the elements of `B` imaginary (`i`)
 * Calculate `B'`. What does the apostrophe *actually* do?
 
-### X2. Size
+### X2. Linear algebra: Inversion of matrices (and when this is a bad idea)
+
+Join in:
+
+* `A = [1 0 5; 2 1 6; 3 4 0]`
+* `A`
+* `inv(A)`
+* Let's solve *Ax* = (–1 0 1)<sup>T</sup>
+* `b = [-1; 0; 1]`
+* If *Ax* = *b* then *x* = *A*<sup>–1</sup>*b*, so `inv(A)*b`
+* `A\b`
+
+Try:
+
+* Solve the system of equations *x*+*y*=2, -*x*+3*y*=3.
+* Let `A = [1 2 3; 4 5 6; 5 7 9]` and `b = [-1; 0; 1]`. Solve *Ax=b*. What is the determinant of *A*? (Google!)
+
+
+
+### X3. Size
 
 Size gives rows × columns
 
@@ -587,7 +567,7 @@ Size gives rows × columns
 
 Vectors by default are row vectors in Matlab.
 
-### X3. Linear algebra: More matrix arithmetic
+### X4. Linear algebra: More matrix arithmetic
 
 Join in:
 
