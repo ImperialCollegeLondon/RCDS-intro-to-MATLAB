@@ -127,7 +127,7 @@ nterprets the variable names as function names.
 
 Try:
 
- Symbolic variables
+ Symbolic variables (if the following line runs into errors, please install Symbolic Toolbox). [Symbolic Toolbox](https://uk.mathworks.com/matlabcentral/answers/242196-how-to-install-new-toolbox)
 
  syms a b x y
 
