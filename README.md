@@ -407,7 +407,7 @@ Try:
 * Change `collatz_function(n)` so that if *n* is even, it returns *n*/2, otherwise it returns 3*n*+1.
 
 
-### 5. For and while loops
+### 2. For and while loops
 
 Join in:
 
