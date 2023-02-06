@@ -381,9 +381,6 @@ Join in:
   - `[least, middle, largest] = lml(v)`
   - hint: work out the values; use `median` for middle.
 
-
-
-#Part3
 ## Part 3. if, loops (for, while),  Data analysis
 
 ### 1. if
@@ -513,7 +510,7 @@ writetable(new_table, 'exchange_rates_GBP.csv');
 
 
 # Feedback form
-If you're taking this course through the Graduate School, please fill out [the feedback form](https://tinyurl.com/rcds2021-22).
+If you're taking this course through the Graduate School, please fill out [the feedback form](https://imperial.eu.qualtrics.com/jfe/form/SV_9HzWTxus5jKCyxg?Q_CHL=qr).
 
 
 
