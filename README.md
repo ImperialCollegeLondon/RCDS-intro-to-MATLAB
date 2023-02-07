@@ -13,7 +13,7 @@ Introduction to MATLAB course for the CM Hub at Imperial College
 ## On completion of this workshop you will be able to:
 * use MATLAB to run scripts,
 * apply fundamental components of the MATLAB language including variables, loops, conditionals and functions,
-* create programs (scripts and if you wish, basic GUI design) designed to solve simple problems,
+* create programs to solve simple problems,
 * interpret common errors and use these to help debug a program.
 
 ## Prerequisites
