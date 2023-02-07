@@ -5,7 +5,7 @@ Introduction to MATLAB course for the CM Hub at Imperial College
 
 * **Part 1:** Call-and-response MATLAB, basic arithmetic, simple scripts
 * **Part 2:** 2D/3D plots, functions, Collatz conjecture
-* [**Part 3:**](#Part3) if, loops (for, while), Data analysis
+* **Part 3:** if, loops (for, while), Data analysis
 
 ## The Graduate School logo
 <img src="/readme-images/grad-school-logo.png">
