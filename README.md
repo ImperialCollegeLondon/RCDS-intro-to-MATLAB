@@ -63,7 +63,7 @@ Join in:
 
 Try:
 
-* Does Matlab respect BIDMAS?: `3+4*5`
+* Does Matlab respect BIDMAS?: `(3+4)*5`,`3^4*5`,`3+4/5`, `3+4*5`, `3-4*5`
 
 ### 4. Use of variables
 
