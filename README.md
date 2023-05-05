@@ -1,4 +1,5 @@
 # CM Hub: Introduction to Matlab
+## [The other branch is updated](https://github.com/ImperialCollegeLondon/RCDS-intro-to-MATLAB/tree/dev)
 Introduction to Matlab course for the CM Hub at Imperial College
 
 3 × 2 hour classes
