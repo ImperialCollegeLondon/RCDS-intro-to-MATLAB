@@ -510,7 +510,7 @@ writetable(new_table, 'exchange_rates_GBP.csv');
 
 
 # Feedback form
-If you're taking this course through the Graduate School, please fill out [the feedback form](https://imperial.eu.qualtrics.com/jfe/form/SV_9HzWTxus5jKCyxg?Q_CHL=qr).
+If you're taking this course through the Graduate School, please fill out [the feedback form](https://tinyurl.com/feedback-rcds22-23).
 
 
 
