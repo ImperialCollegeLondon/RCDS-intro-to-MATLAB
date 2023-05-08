@@ -163,6 +163,7 @@ f(2)
 
 * Find square root of x: Google the function
 * Or use F1 on the function
+* Or use ChatGPT (or similar AIs)
 
 Try:
 
