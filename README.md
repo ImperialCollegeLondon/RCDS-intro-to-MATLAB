@@ -133,7 +133,7 @@ Try:
 
 together with
 
- simplify the following equations
+* simplify the following equations
 
  x^2+2*a*x+a^2 
 
@@ -141,9 +141,7 @@ together with
 
 sin(x)*sin(x)+cos(x)*cos(x)
 
-a^11/a^3 + b^2*b^9
-
- expand the following equations
+* expand the following equations
 
 (y+2)*(y+1)
 
@@ -151,13 +149,18 @@ a^11/a^3 + b^2*b^9
 
 (a*x+3)*(b*x-2)
 
-evaluate a function
+* evaluate a function
 
 A = [x x^3; x^2 x^4];
 
 f(x) = A
 
 f(2)
+
+* solve an equation
+eqn = (x+y)^2 == 4;
+% solve the equation on x
+sol = solve(eqn, x)
  
 ### 5. Getting help
 
