@@ -158,8 +158,11 @@ f(x) = A
 f(2)
 
 * solve an equation
+
 eqn = (x+y)^2 == 4;
+
 % solve the equation on x
+
 sol = solve(eqn, x)
  
 ### 5. Getting help
