@@ -483,7 +483,7 @@ Your turn:
 Join in:
 
 * Create another data matrix, `data_pounds`, which contains the exchange rate of these currencies versus GBP, instead of USD
-* Save the EUR/GBP data matrix
+* Save the `data_pounds` data matrix
 * `csvwrite('exchange_rates_pounds.csv',data_pounds)`
 * Look at it in Excel
 
