@@ -280,6 +280,7 @@ disp(n*(n^2+1)/2); % magic constant
 * Run the script.
 * Breakpoints
 * Change the script so that we do it with a matrix of size 3 instead.
+* NOTE: % is for a line of comment. For block comments, use %{   %}
 
 #### Repeat above lines in Live Scripts (code + text)
 
