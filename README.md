@@ -474,7 +474,7 @@ Join in:
 * Move the CSV file to your folder
 * Have a look at this file in Excel
 * Create a new script, `exchange_rate_data.m`
-* `data = csvread('exchange_rates.csv',1,0);`
+* `data = readmatrix('exchange_rates.csv');`
 
 Your turn:
 
@@ -488,7 +488,7 @@ Join in:
 
 * Create another data matrix, `data_pounds`, which contains the exchange rate of these currencies versus GBP, instead of USD
 * Save the `data_pounds` data matrix
-* `csvwrite('exchange_rates_pounds.csv',data_pounds)`
+* `writematrix('exchange_rates_pounds.csv',data_pounds)`
 * Look at it in Excel
 
 Advanced:
