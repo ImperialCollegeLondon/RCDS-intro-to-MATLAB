@@ -331,6 +331,9 @@ Try:
 * The same but use `loglog`, `semilogx` or `semilogy` instead of `plot` (the syntax is the same). What do they do?
 * Try in the Live Scripts too.
 
+NOTE:
+* For multiple plots in multiple figure windows, please use `figure()`.
+
 ### 2. Plotting in 3D
 
 Join in:
