@@ -118,9 +118,7 @@ You can right click to delete one variable a time in the Workspace window.
 
 Another potential source of name conflicts occurs when you define a function that calls load or eval (or similar functions) to add variables to the workspace. In some cases, 
 
-load or eval add variables that have the same names as functions. Unless these variables are in the function workspace before the call to load or eval, the MATLAB parser i
-
-nterprets the variable names as function names. 
+load or eval add variables that have the same names as functions. Unless these variables are in the function workspace before the call to load or eval, the MATLAB parser interprets the variable names as function names. 
 
 
 
