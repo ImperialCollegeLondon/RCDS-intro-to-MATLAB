@@ -492,7 +492,7 @@ Join in:
 
 Advanced:
 
-* Observe and find Cons with `csvread` and  `csvwrite`
+* Observe and find Cons with `readmatrix` and  `writematrix`
 * Solution:
   * Use `readtable` and `writetable` instead
   * example:
