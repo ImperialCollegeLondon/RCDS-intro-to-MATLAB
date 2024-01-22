@@ -197,6 +197,7 @@ Join in:
 Try:
 
 * What do apostrophes do? `x'` `y'`
+  * NOTE: `x` and `y` are real matrices. What if `x` and `y` are complex matrix, `.'` should be used (Thanks to Yuliang Zhu from EEE). There are more examples can be found [here](https://uk.mathworks.com/help/matlab/ref/transpose.html)
 * What do commas do?: `[29, 43, 13, 3.2, -26]`
 * How long is `[1:0.5:10]`?
 
