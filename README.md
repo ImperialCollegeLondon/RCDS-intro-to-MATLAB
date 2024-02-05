@@ -470,7 +470,7 @@ There are lots of ways of saving and reading data in MATLAB. A good question to 
 
 Join in:
 
-* Download the file [exchange_rates.csv](https://github.com/73764dce-9037-4750-8659-e99047d05be3)
+* Download the file [exchange_rates.csv](https://github.com/ImperialCollegeLondon/RCDS-intro-to-MATLAB/raw/dev/examples/exchange_rates.csv)
 * Move the CSV file to your folder
 * Have a look at this file in Excel
 * Create a new script, `exchange_rate_data.m`
