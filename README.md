@@ -355,6 +355,7 @@ Visualise *f*(*x,y*) = sin(*x*)cos(2*y*) for 0 ≤ *x,y* ≤ 2π:
 * `contour(xg,yg,f,20);`
 * `surf(x,y,f)`
 * `shading interp`
+* `colorbar`
 
 Try:
 
