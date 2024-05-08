@@ -325,6 +325,7 @@ Join in:
 * `hold on`
 * `plot(x,y2,'k--')`
 * `legend('exp(x)','exp(0.9x)')`
+* `hold off`
 
 Try:
 
