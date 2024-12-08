@@ -633,9 +633,9 @@ Try:
 * `max(x)`, `min(x)`
 * `triu(A)`, `rand(n)`
 
-### [X7. Curve Fitting](./curve_fitting.md)
+### [X7. Curve Fitting](examples/curve_fitting.md)
 
-### [X8. Numerical Root Finding](./root_finding.md)
+### [X8. Numerical Root Finding](examples/root_finding.md)
 
 
 # Extra challenges 
