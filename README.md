@@ -1,5 +1,5 @@
 # CM Hub: Introduction to MATLAB
-Introduction to MATLAB course for the CM Hub at Imperial College
+Introduction to MATLAB course for the CM Hub at Imperial
 
 3 × 2 hour classes
 
@@ -7,8 +7,8 @@ Introduction to MATLAB course for the CM Hub at Imperial College
 * **Part 2:** 2D/3D plots, functions, Collatz conjecture
 * **Part 3:** if, loops (for, while), Data analysis
 
-## The Graduate School logo
-<img src="/readme-images/grad-school-logo.png">
+## The ECRI
+<img src="/readme-images/ecri.webp">
 
 ## On completion of this workshop you will be able to:
 * use MATLAB to run scripts,
@@ -19,7 +19,7 @@ Introduction to MATLAB course for the CM Hub at Imperial College
 ## Prerequisites
 * No programming experience is required
 * Students are welcome to bring their own fully charged laptops to these sessions although there are computers in situ.
-* If on a laptop, please [install MATLAB](https://www.imperial.ac.uk/admin-services/ict/self-service/computers-printing/devices-and-software/get-software/get-software-for-students/matlab/) and install [Symbolic Toolbox](https://uk.mathworks.com/matlabcentral/answers/242196-how-to-install-new-toolbox).
+* If on a laptop, please [install MATLAB](https://www.imperial.ac.uk/admin-services/ict/self-service/computers-printing/devices-and-software/get-software/get-software-for-students/matlab/) and install [Symbolic Toolbox](https://uk.mathworks.com/matlabcentral/answers/242196-how-to-install-new-toolbox). **For MacOS higher than v15, please install MATLAB R2024b**
 * Alternatively, you can use MATLAB online at [https://matlab.mathworks.com/](https://matlab.mathworks.com/) after registering and activating your account with your university/college email.
 
 ## YouTube videos for distance learning
