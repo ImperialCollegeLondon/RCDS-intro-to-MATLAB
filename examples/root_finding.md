@@ -14,7 +14,7 @@ shorter intervals <img alt="$[a,x]$" src="/svgs/78803621c5e4e61a79d2880c449812f3
 interval as a new starting interval. The procedure is completed until the bracketing
 interval is less than a specified tolerance <img alt="$\varepsilon$" src="/svgs/9ae7733dac2b7b4470696ed36239b676.png" align="middle" width="7.66550399999999pt" height="14.15524440000002pt"/>. 
 
-<img src="//svgs/bisection.png" alt="illustration of the bisection method" width="250" />
+<img src="/svgs/bisection.png" alt="illustration of the bisection method" width="250" />
 
 Find the roots of the equation:
 <p align="center"><img alt="$$&#10;f(x) = x^2 + (x-2)^3 -5 = 0&#10;$$" src="/svgs/835d2a9f275cfad6e03f30643e0f7abb.png" align="middle" width="207.0886257pt" height="18.312383099999998pt"/></p>
@@ -59,4 +59,4 @@ any user defined function. Explore the use of these two functions within the _He
 point <img alt="$x = 5$" src="/svgs/1486f15d8fb65398773c720894089ae0.png" align="middle" width="39.53182859999999pt" height="21.18721440000001pt"/>. Define <img alt="$f(x)$" src="/svgs/7997339883ac20f551e7f35efff0a2b9.png" align="middle" width="31.99783454999999pt" height="24.65753399999998pt"/> in _myfunction_ from Task 1.
 Verify that the root you have found is correct by plotting <img alt="$f(x)$" src="/svgs/7997339883ac20f551e7f35efff0a2b9.png" align="middle" width="31.99783454999999pt" height="24.65753399999998pt"/>. The function <img alt="$f(x)$" src="/svgs/7997339883ac20f551e7f35efff0a2b9.png" align="middle" width="31.99783454999999pt" height="24.65753399999998pt"/> has multiple roots; try to determine a few more, still using _fzero_.
 
-(Back to [README.md](./README.md))
+(Back to [README.md](/README.md))
