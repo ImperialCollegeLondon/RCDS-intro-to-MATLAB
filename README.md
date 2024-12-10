@@ -42,7 +42,7 @@ Pros of MATLAB:
 * Excellent systematic help documents
 
 Cons of MATLAB:
-* Ideosyncratic
+* Idiosyncratic
 * £££££££££££
 * Bad for programming in general
 * Isn't used outside of universities
