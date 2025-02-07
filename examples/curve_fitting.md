@@ -89,7 +89,6 @@ computed spring stiffness in a separate file called _stiffness.csv_.
  <details>
     <summary>Sample code</summary>
     
-    sample code
     ```
     exp_data = readmatrix("experiment.txt");
     % load 1st col and 2nd col separately
@@ -142,4 +141,5 @@ computed spring stiffness in a separate file called _stiffness.csv_.
     e3 = sum((yexp_matched - p3_matched').^2);
     disp(e3);
     ```
-    </details>
+  
+  </details>
