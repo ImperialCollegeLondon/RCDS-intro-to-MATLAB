@@ -491,7 +491,7 @@ Join in:
 
 * Create another data matrix, `data_pounds`, which contains the exchange rate of these currencies versus GBP, instead of USD
 * Save the `data_pounds` data matrix
-* `writematrix('exchange_rates_pounds.csv',data_pounds)`
+* `writematrix(data_pounds, 'exchange_rates_pounds.csv')`
 * Look at it in Excel
 
 Advanced:
