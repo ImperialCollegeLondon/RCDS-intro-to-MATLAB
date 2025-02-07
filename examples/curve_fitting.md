@@ -85,3 +85,61 @@ stiffness for each spring. Save the spring serial number followed by the
 computed spring stiffness in a separate file called _stiffness.csv_.
 
 (Back to [README.md](/README.md))
+
+ <details>
+    <summary>Sample code</summary>
+    
+    sample code
+    ```
+    exp_data = readmatrix("experiment.txt");
+    % load 1st col and 2nd col separately
+    xexp = exp_data(:, 1);
+    yexp = exp_data(:, 2);
+    % fit data with 1st, 2nd, and 3rd order
+    cn1 = polyfit(xexp, yexp, 1);
+    cn2 = polyfit(xexp, yexp, 2);
+    cn3 = polyfit(xexp, yexp, 3);
+    
+    % 1st order fitting
+    xf = [1:0.1:10];
+    p1 = cn1(1)*xf + cn1(2);
+    plot(xf,p1);
+    hold on;
+    plot(xexp, yexp);
+    legend("1st order", "origin");
+    hold off;
+    
+    % 2nd order fitting
+    p2 = cn2(1)*xf.^2 + cn2(2)*xf + cn2(3);
+    plot(xf,p2);
+    hold on;
+    plot(xexp, yexp);
+    legend("2nd order", "origin");
+    hold off;
+    
+    % 3rd order fitting
+    p3 = cn3(1)*xf.^3 + cn3(2)*xf.^2 + cn3(3)*xf+ cn3(4);
+    plot(xf,p3);
+    hold on;
+    plot(xexp, yexp);
+    legend("3rd order", "origin");
+    hold off;
+    
+    % find location (indices) of xexp in xf
+    [tf, idx] = ismembertol(xexp, xf);
+    % get found elements
+    yexp_matched = yexp(idx>0);
+    
+    p1_matched = p1(idx(idx>0));
+    p2_matched = p2(idx(idx>0));
+    p3_matched = p3(idx(idx>0));
+    
+    % compare  errors
+    e1 = sum((yexp_matched - p1_matched').^2);
+    disp(e1);
+    e2 = sum((yexp_matched - p2_matched').^2);
+    disp(e2);
+    e3 = sum((yexp_matched - p3_matched').^2);
+    disp(e3);
+    ```
+    </details>
