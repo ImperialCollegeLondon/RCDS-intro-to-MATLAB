@@ -519,6 +519,10 @@ new_table = array2table(data_pounds, 'VariableNames', header);
 writetable(new_table, 'exchange_rates_GBP.csv');
 ```
 
+Challenge:
+
+Would you be able to write a function which allows you to find the minimal exchange rate between any two currencies? Hint: consider checking if the input currency codes are valid and provide feedback information to users.
+
 * Your research: fopen, textscan, fclose
 
 
