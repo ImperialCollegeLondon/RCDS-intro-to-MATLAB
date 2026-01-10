@@ -528,7 +528,7 @@ Would you be able to write a function which allows you to find the minimal excha
 
 
 # Feedback form
-If you're taking this course through the Graduate School, please fill out [the feedback form](https://tinyurl.com/feedback-rcds).
+If you're taking this course through the Graduate School, please fill out [the feedback form](https://ecri.short.gy/feedback-rcds).
 
 
 
