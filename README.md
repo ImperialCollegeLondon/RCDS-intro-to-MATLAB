@@ -333,7 +333,7 @@ Try:
 * Try in the Live Scripts too.
 
 NOTE:
-* For multiple plots in multiple figure windows, please use `figure()`.
+* **For multiple plots in multiple figure windows, please use `figure()`.**
 
 ### 2. Plotting in 3D
 
