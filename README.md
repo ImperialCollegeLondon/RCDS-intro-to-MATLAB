@@ -19,8 +19,8 @@ Introduction to MATLAB course for the CM Hub at Imperial
 ## Prerequisites
 * No programming experience is required
 * Students are welcome to bring their own fully charged laptops to these sessions although there are computers in situ.
-* If on a laptop, please [install MATLAB](https://www.imperial.ac.uk/admin-services/ict/self-service/computers-printing/devices-and-software/get-software/get-software-for-students/matlab/) and install [Symbolic Toolbox](https://uk.mathworks.com/matlabcentral/answers/242196-how-to-install-new-toolbox). **For MacOS higher than v15, please install MATLAB R2024b**
-* Alternatively, you can use MATLAB online at [https://matlab.mathworks.com/](https://matlab.mathworks.com/) after registering and activating your account with your university/college email.
+* If on a laptop/PC, please [install MATLAB](https://www.imperial.ac.uk/admin-services/ict/self-service/computers-printing/devices-and-software/get-software/get-software-for-students/matlab/) and install **Symbolic Toolbox**, which can be checked when installing MATLAB or install later [Symbolic Toolbox](https://uk.mathworks.com/matlabcentral/answers/242196-how-to-install-new-toolbox). **For MacOS higher than v15, please install MATLAB R2025b**
+* **Alternatively**, you can use MATLAB online at [https://matlab.mathworks.com/](https://matlab.mathworks.com/) after registering and activating your account with your university/college email.
 
 ## YouTube videos for distance learning
 Timestamps are in the descriptions and correspond to the numbering in this document.
