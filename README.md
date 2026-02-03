@@ -1,5 +1,6 @@
 # CM Hub: Introduction to MATLAB
 Introduction to MATLAB course for the CM Hub at Imperial
+By Dr Jianliang (Liam) Gao (j.gao@imperial)
 
 3 × 2 hour classes
 
