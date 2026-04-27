@@ -83,7 +83,7 @@ Join in:
 
 **Valid Names**
 
-A valid variable name starts with a letter, followed by letters, digits, or underscores. MATLAB® is case sensitive, so A and a are not the same variable.
+**A valid variable name starts with a letter, followed by letters, digits, or underscores.** MATLAB® is case sensitive, so A and a are not the same variable.
 
 The maximum length of a variable name is the value that the namelengthmax command returns.
 
