@@ -296,10 +296,11 @@ Join in, putting this in a script, `first_plot.m`:
 * `plot(x,y)`
 * How do we make this graph smoother?
 
-Try:
+Try (in the same .m script):
 
 * `plot` sin(*x*) for *x* between 0 and 2π
 * `plot` a circle: recall *x* = cos(*θ*), *y* = sin(*θ*) for *θ* between 0 and 2π to make a circle with radius 1.
+* what have you noticed regarding the figure output?
 
 Join in:
 
